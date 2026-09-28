@@ -249,5 +249,5 @@ class ModelViewSet(mixins.CreateModelMixin,
     """
     A viewset that provides default `create()`, `retrieve()`, `update()`,
     `partial_update()`, `destroy()` and `list()` actions.
+    This handles all standard CRUD operations out of the box for Django models.
     """
-    pass
